@@ -33,3 +33,21 @@ html {
   max-width: 90%;
   padding: 0px 20px;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #e5e7eb;
+}
+
+a:visited {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3882f6;
+  cursor: pointer;
+}
