@@ -32,12 +32,8 @@ body {
   top: 0;
   width: 100%;
   height: 20px;
-  /*default background*/
+  /*default background without z index*/
   /* background: #e5e7eb; */
-
-  /*making the background the same as hero-section...but overlap is an issue*/
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../naledi-aphane/images/Naledi-Aphane.jpg"); */
 
   /*supposed to make the nav bar transparent...shows background of of item with lower index order*/
   background: transparent;
