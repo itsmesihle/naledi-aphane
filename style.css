@@ -17,7 +17,7 @@ body {
   height: 100%;
   padding: 0px 0px 0px 0px;
   margin: 0px;
-  background-color: #ffffff;
+  background-color: #e5e7eb;
   font-family: "Roboto", arial;
   align-content: center;
   text-align: center;
@@ -32,7 +32,12 @@ body {
   top: 0;
   width: 100%;
   height: 20px;
-  background-color: white;
+  background: #e5e7eb;
+  /*making the background the same as*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../naledi-aphane/images/Naledi-Aphane.jpg");
+  /*supposed to make the nav bar transparent*/
+  /*  opacity: 0.1; */
   padding: 10px;
 }
 
@@ -44,7 +49,7 @@ body {
 #nav {
   display: flex;
   direction: row;
-  background-color: aquamarine;
+  background-color: #e5e7eb;
   padding: 5px 20px;
   align-items: center;
 }
