@@ -32,12 +32,16 @@ body {
   top: 0;
   width: 100%;
   height: 20px;
-  background: #e5e7eb;
-  /*making the background the same as*/
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../naledi-aphane/images/Naledi-Aphane.jpg");
-  /*supposed to make the nav bar transparent*/
-  /*  opacity: 0.1; */
+  /*default background*/
+  /* background: #e5e7eb; */
+
+  /*making the background the same as hero-section...but overlap is an issue*/
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../naledi-aphane/images/Naledi-Aphane.jpg"); */
+
+  /*supposed to make the nav bar transparent...shows background of of item with lower index order*/
+  background: transparent;
+  z-index: 1;
   padding: 10px;
 }
 
@@ -49,7 +53,7 @@ body {
 #nav {
   display: flex;
   direction: row;
-  background-color: #e5e7eb;
+  /*  background-color: #e5e7eb; */
   padding: 5px 20px;
   align-items: center;
 }
@@ -85,7 +89,7 @@ a:hover {
   /*background image*/
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../naledi-aphane/images/Naledi-Aphane.jpg");
-
+  z-index: 0;
   /*rotate image 180deg about the y axis*/
   /*  transform: rotateY(180deg); */
 
@@ -94,7 +98,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  top: 40px;
+  top: 0;
   padding: 0px;
   margin: 0px;
 }
