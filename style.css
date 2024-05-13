@@ -145,12 +145,26 @@ a:hover {
   height: 100%;
 }
 
+#experience p {
+  padding: 15px 20px;
+  /*  background-color: green; */
+}
+
 #previous-work a,
 #previous-work a:link,
 #previous-work a:visited {
   /*   text-decoration: none; */
   color: black;
   padding: 15px 20px;
+}
+
+#previous-work a:hover {
+  transform: scale(1.75);
+  background-color: #3882f6;
+  border-radius: 5000px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 #previous-work {
