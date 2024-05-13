@@ -145,7 +145,8 @@ a:hover {
   height: 100%;
 }
 
-#experience p {
+#experience,
+#previous-work {
   padding: 15px 20px;
   /*  background-color: green; */
 }
