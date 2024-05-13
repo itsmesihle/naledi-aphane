@@ -146,5 +146,15 @@ a:hover {
 }
 
 p {
-  padding: 15px;
+  color: black;
+  padding: 15px 20px;
+}
+
+#previous-work a,
+#previous-work a:link,
+#previous-work a:visited {
+  color: #e5e7eb;
+  text-decoration: none;
+  color: black;
+  padding: 15px 20px;
 }
