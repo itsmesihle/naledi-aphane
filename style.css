@@ -145,16 +145,14 @@ a:hover {
   height: 100%;
 }
 
-p {
+#previous-work a,
+#previous-work a:link,
+#previous-work a:visited {
+  /*   text-decoration: none; */
   color: black;
   padding: 15px 20px;
 }
 
-#previous-work a,
-#previous-work a:link,
-#previous-work a:visited {
-  color: #e5e7eb;
-  text-decoration: none;
-  color: black;
-  padding: 15px 20px;
+#previous-work {
+  background-color: white;
 }
