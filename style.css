@@ -41,12 +41,16 @@ body {
   padding: 10px;
 }
 
-/* #logo {
+#logo {
+  color: #e5e7eb;
   font-size: 20px;
-  background-color: green;
-} */
+
+  /* this should stick logo to the left side of the #nav-bar row..doesnt so far */
+  float: left;
+}
 
 #nav {
+  float: right;
   display: flex;
   direction: row;
   /*  background-color: #e5e7eb; */
@@ -59,14 +63,8 @@ body {
   padding: 0px 20px;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:link {
-  color: #e5e7eb;
-}
-
+a,
+a:link,
 a:visited {
   color: #e5e7eb;
   text-decoration: none;
@@ -86,8 +84,6 @@ a:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../naledi-aphane/images/Naledi-Aphane.jpg");
   z-index: 0;
-  /*rotate image 180deg about the y axis*/
-  /*  transform: rotateY(180deg); */
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
