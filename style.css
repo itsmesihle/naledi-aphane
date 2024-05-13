@@ -6,9 +6,9 @@ html {
 }
 
 /* create space to make sure everything is visible*/
-section {
+/* section {
   height: 500px;
-}
+} */
 
 body {
   position: relative;
