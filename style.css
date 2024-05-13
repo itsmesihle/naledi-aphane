@@ -106,6 +106,27 @@ a:hover {
   color: white;
 }
 
+/* BUTTON: all */
+.btn {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5000px;
+  transition: transition 0.3s;
+}
+.btn:hover {
+  transform: scale(1.75);
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .container {
   position: relative;
   overflow: hidden;
